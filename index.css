@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+.whole_page {
+    width: 100vw;
+    height: 100vh;
+    background: whitesmoke;
+    position: absolute;
+    display: flex;
+}
+
+.whole-card {
+    /* border: red solid 10px; just so I can see it */
+    margin: auto;
+    background: black;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    max-width: 40em;
+}
+
+.card_top {
+    /* border: green solid 10px; just so I can see it */
+    background: linear-gradient(
+  220deg,
+  hsl(238deg 99% 67%) 0%,
+  hsl(256deg 89% 65%) 13%,
+  hsl(270deg 79% 61%) 27%,
+  hsl(283deg 71% 58%) 42%,
+  hsl(295deg 63% 54%) 55%,
+  hsl(306deg 66% 53%) 66%,
+  hsl(314deg 75% 55%) 76%,
+  hsl(320deg 84% 56%) 84%,
+  hsl(326deg 91% 58%) 93%,
+  hsl(331deg 96% 60%) 100%
+);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+    position: relative;
+    border-radius: 1em 1em 0 0;
+}
+
+.convert-area {
+    /* border: yellow solid 10px; */
+    background: #2C3138;
+    border-radius: 0 0 1em 1em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.conversion__wrap {
+    /* border: pink solid 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conversion-results {
+    /* border: orange solid 10px; */
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+
+#user-input{
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 6em;
+    line-height: 1;
+    text-align: center;
+    color: #e7ddddcc;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#measurement-title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1em;
+    color: #DEDEDE;
+}
+
+.conversion__title {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.25;
+    color: white;
+}
+
+.converted-numbers {
+    /* border: darkblue solid 10px; */
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: .9em;
+    line-height: 1.3;
+    color: #e215d1;
+}
